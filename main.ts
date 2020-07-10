@@ -140,5 +140,6 @@ tiles.setTilemap(tiles.createTilemap(
             TileScale.Sixteen
         ))
 game.onUpdateInterval(3000, function () {
-	
+    create_enemy1()
+    create_enemy2()
 })
