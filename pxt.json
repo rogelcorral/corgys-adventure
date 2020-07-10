@@ -1,0 +1,17 @@
+{
+    "name": "Corgy's Adventure",
+    "dependencies": {
+        "device": "*",
+        "corgio": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "blocksprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
