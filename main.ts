@@ -167,5 +167,7 @@ tiles.setTilemap(tiles.createTilemap(
             [myTiles.tile0,sprites.builtin.brick,sprites.castle.tilePath3,sprites.castle.tileGrass3,sprites.builtin.forestTiles0,sprites.castle.shrub,sprites.builtin.coral5,myTiles.tile1,sprites.castle.tileGrass2,sprites.dungeon.chestClosed],
             TileScale.Sixteen
         ))
-create_enemy1()
-create_enemy2()
+game.onUpdateInterval(3000, function () {
+    create_enemy1()
+    create_enemy2()
+})
