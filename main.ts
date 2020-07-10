@@ -102,21 +102,21 @@ myCorg.verticalMovement()
 myCorg.updateSprite()
 myCorg.follow()
 let corgysHouse = sprites.create(img`
-. . . . . . . . . . e . . . . . . . . . . 
-. . . . . . . . . e e e . . . . . . . . . 
-. . . . . . . . e e e e e . . . . . . . . 
-. . . . . . . e e e e e e e . . . . . . . 
-. . . . . . e e e e e e e e e . . . . . . 
-. . . . . e e e e e e e e e e e . . . . . 
-. . . . e e e e e e e e e e e e e . . . . 
-. . . e e e e e e e e e e e e e e e . . . 
-. . e e e e e e e e e e e e e e e e e . . 
-. e e e e e e e e e e e e e e e e e e e . 
-. . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 f f f f f 1 1 1 1 1 . . . 
+. . . . . . . . . . 2 . . . . . . . . . . 
+. . . . . . . . . 2 2 2 . . . . . . . . . 
+. . . . . . . . 2 2 1 2 2 . . . . . . . . 
+. . . . . . . 2 2 1 1 1 2 2 . . . . . . . 
+. . . . . . 2 2 1 1 1 1 1 2 2 . . . . . . 
+. . . . . 2 2 1 1 1 1 1 1 1 2 2 . . . . . 
+. . . . 2 2 1 1 1 1 1 1 1 1 1 2 2 . . . . 
+. . . 2 2 1 1 1 1 1 1 1 1 1 1 1 2 2 . . . 
+. . 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 . . 
+. 2 2 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 . 
+2 2 2 1 1 1 1 1 f f f f f 1 1 1 1 1 2 2 2 
 . . . 1 1 1 1 f f f f f f f 1 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
 . . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
 . . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
 . . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
