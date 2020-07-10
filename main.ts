@@ -62,6 +62,9 @@ f b d d b b d d 2 f . f d f
     bouncingKitty.setFlag(SpriteFlag.BounceOnWall, true)
     bouncingKitty.y = Math.randomRange(0, 120)
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Object, function (sprite, otherSprite) {
+    game.over(true)
+})
 function create_enemy2 () {
     flyingRubberDucky = sprites.create(img`
 . . . . . . . . . b 5 b . . . . 
@@ -85,9 +88,6 @@ c b d d d d d 5 5 5 5 5 5 5 b .
     flyingRubberDucky.setFlag(SpriteFlag.BounceOnWall, true)
     flyingRubberDucky.y = Math.randomRange(0, 120)
 }
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Object, function (sprite, otherSprite) {
-    game.over(true)
-})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
     game.over(false)
 })
