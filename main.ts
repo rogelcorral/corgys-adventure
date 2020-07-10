@@ -58,7 +58,7 @@ f b d d b b d d 2 f . f d f
 . f d f f f d f f d f . . . 
 . f f . . f f . . f f . . . 
 `, SpriteKind.Enemy)
-    bouncingKitty.setVelocity(100, 100)
+    bouncingKitty.setVelocity(75, 75)
     bouncingKitty.setFlag(SpriteFlag.BounceOnWall, true)
     bouncingKitty.y = Math.randomRange(0, 120)
 }
@@ -84,7 +84,7 @@ c b d d d d d 5 5 5 5 5 5 5 b .
 . . c b d d d d d 5 5 5 b b . . 
 . . . c c c c c c c c b b . . . 
 `, SpriteKind.Enemy)
-    flyingRubberDucky.setVelocity(100, 100)
+    flyingRubberDucky.setVelocity(75, 75)
     flyingRubberDucky.setFlag(SpriteFlag.BounceOnWall, true)
     flyingRubberDucky.y = Math.randomRange(0, 120)
 }
