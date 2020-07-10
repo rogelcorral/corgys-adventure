@@ -115,13 +115,13 @@ let corgysHouse = sprites.create(img`
 . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . . 
 . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . . 
 . . . 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 1 1 f 1 1 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 1 f f f 1 1 1 1 1 1 . . . 
 . . . 1 1 1 1 1 f f f f f 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 f f f f f 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 f f f f f 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 f f f f f 1 1 1 1 1 . . . 
-. . . 1 1 1 1 1 f f f f f 1 1 1 1 1 . . . 
+. . . 1 1 1 1 f f f f f f f 1 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
+. . . 1 1 1 f f f f f f f f f 1 1 1 . . . 
 `, SpriteKind.Object)
 corgysHouse.setPosition(470, 110)
 tiles.setTilemap(tiles.createTilemap(
